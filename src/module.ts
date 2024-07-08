@@ -62,7 +62,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     head.script.push({
       hid: 'adsbygoogle-script',
-      defer: true,
+      async: true,
       crossorigin: 'anonymous',
       src: `${ADSENSE_URL}?client=${options.id}`,
     })
