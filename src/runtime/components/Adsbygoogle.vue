@@ -78,7 +78,7 @@ defineExpose({ isUnfilled, updateAd, showAd })
     :data-analytics-domain-name="dataAnalyticsDomainName"
     :data-adtest="dataAdTest"
     :data-adsbygoogle-status="status"
-    :data-ad-full-width-responsive="adFullWidthResponsive"
+    :data-full-width-responsive="adFullWidthResponsive"
   />
 </template>
 
